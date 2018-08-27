@@ -1,5 +1,4 @@
 const graphql = require('graphql');
-// const WeatherForecastType require('.weatherForecastType.js');
 const axios = require('axios');
 const dotenv = require('dotenv').config()
 
