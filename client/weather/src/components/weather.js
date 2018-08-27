@@ -34,7 +34,6 @@ class Weather extends Component {
       } else {
          return (
             <div className="weather-result">
-               {console.log(data.city.weather[0].icon)}
                <div className="top">
                   <div className="top-left">
                      <h1>{data.city.name}</h1>
@@ -52,7 +51,6 @@ class Weather extends Component {
                      <p>{`${(data.city.main.temp).toFixed(1)}°C`}</p>
                   </div>
                </div>
-               {console.log(data.city)}
             </div>
          )
       }
