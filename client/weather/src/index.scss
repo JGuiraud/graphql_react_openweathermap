@@ -1,0 +1,22 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background: teal;
+}
+
+.App {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background: purple; */
+   height: 30vh;
+}
+
+input {
+   height: 40px;
+   width: 300px;
+   font-size: 2em;
+   padding-left: .5em;
+   background: darken(teal)
+}
