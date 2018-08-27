@@ -93,7 +93,7 @@ const RootQuery = new GraphQLObjectType({
          resolve(parentValue, args) {
             return axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${args.cityName}&lang=fr&units=metric&${process.env.API_KEY}`)
                .then(resp => resp.data);
-            // https://api.openweathermap.org/data/2.5/weather?q=Toulouse&lang=fr&units=metric&appid=ad61d0669bccfd5f5fc7c1dcde7ca151
+            // https://api.openweathermap.org/data/2.5/weather?q=Toulouse&lang=fr&units=metric&appid=
          }
       }
    }
